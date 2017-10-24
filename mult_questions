@@ -1,0 +1,112 @@
+
+person = input("What is your name?\n")
+
+print("Hello", person, "let's get started.")
+
+answer_1 = input("What is 7 * 1\n")
+
+while True:
+   if int(answer_1) == 7:
+       print("YES, nice work.\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_1 = input("What is 7 * 1\n")
+
+answer_2 = input("What is 7 * 2\n")
+
+while True:
+   if int(answer_2) == 14:
+       print("YES, you the man.\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_2 = input("What is 7 * 2\n")
+
+answer_3 = input("What is 7 * 3\n")
+
+while True:
+   if int(answer_3) == 21:
+       print("Too easy.\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_3 = input("What is 7 * 3\n")
+
+answer_4 = input("What is 7 * 4\n")
+
+while True:
+   if int(answer_4) == 28:
+       print("YES, way too easy\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_4 = input("What is 7 * 4\n")
+
+answer_5 = input("What is 7 * 5\n")
+
+while True:
+   if int(answer_5) == 35:
+       print(person, "you've been studying\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_5 = input("What is 7 * 5\n")
+      
+answer_6 = input("What is 7 * 6\n")
+
+while True:
+   if int(answer_6) == 42:
+       print(person, "I thought I had you on that one\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_6 = input("What is 7 * 6\n")
+      
+answer_7 = input("What is 7 * 7\n")
+
+while True:
+   if int(answer_7) == 49:
+       print("That's a tough one, nice work\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_7 = input("What is 7 * 7\n")
+      
+answer_8 = input("What is 7 * 8\n")
+
+while True:
+   if int(answer_8) == 56:
+       print("Man you are good.\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_8 = input("What is 7 * 8\n")
+      
+answer_9 = input("What is 7 * 9\n")
+
+while True:
+   if int(answer_9) == 63:
+       print("YES. You got this.\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_9 = input("What is 7 * 9\n")
+
+answer_10 = input("Last one. What is 7 * 10\n")
+
+while True:
+   if int(answer_10) == 70:
+       print("You did fantastic. Keep practicing, do your best and have fun.\n")
+       break
+   else:
+      print("Try again.\n")
+      answer_10 = input("What is 7 * 10\n")
+
+
+#Do you want to play again?
+#Do you want to do a different number?
+#What number?
+
+
+
